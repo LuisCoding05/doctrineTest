@@ -1,0 +1,17 @@
+{
+    "name": "daw/doctrine",
+    "description": "Proyecto presentación de doctrine ORM",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^3.3",
+        "doctrine/dbal": "^4.2",
+        "symfony/cache": "^7.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daw\\Doctrine\\": "src/"
+        }
+    }
+}
